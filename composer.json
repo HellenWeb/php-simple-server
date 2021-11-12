@@ -1,0 +1,17 @@
+{
+    "name": "art/php-simple-server",
+    "require": {
+        "twig/twig": "^3.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Art\\PhpSimpleServer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "HellenWeb",
+            "email": "84445465+HellenWeb@users.noreply.github.com"
+        }
+    ]
+}
