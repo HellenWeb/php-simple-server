@@ -11,7 +11,7 @@ $loader = new \Twig\Loader\FilesystemLoader('templates');
 // Home Page
 
 $home = new \Twig\Environment($loader);
-$homeTemplates = $home->load('Home/index.html');
+$homeTemplates = $home->load('Home/index.php');
 echo $homeTemplates->render([
     'title' => 'Home Page'
 ]);

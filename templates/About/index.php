@@ -1,15 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-    {% include 'components/head.html' %}
+    {% include 'components/head.php' %}
     <body>
-
-        {% include 'components/navbar.html' %}
         
         <div class="container">
             <h1>{{ title }}</h1>
         </div>
 
-        {% include'components/footer.html' %}
+        {% include 'components/footer.php' %}
 
     </body>
 </html>
